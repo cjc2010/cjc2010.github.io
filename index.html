@@ -8,6 +8,17 @@
     <title>Fretboard</title>
 </head>
 <body>
+     <script>
+         var password = "tutorial";
+         (function passcodeprotect() {
+            var passcode = prompt("Enter PassCode");
+            while (passcode !== password) {
+               alert("Incorrect PassCode");
+               return passcodeprotect();
+            }
+         }());
+         alert('Welcome To The TP..!');
+      </script>
     <div class="settings">
         <label for="instrument-selector">Selected instrument:</label>
         <select name="instrument-selector" id="instrument-selector"></select>
