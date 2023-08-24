@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:100,300,400');
 
+span.blockspam {
+  display: none;
+}
+
 :root {
     --fretboard-height: 300;
     --number-of-strings: 6;
